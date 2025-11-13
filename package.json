@@ -1,0 +1,53 @@
+{
+  "name": "converterstart",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "eslint:lint": "eslint ./src",
+    "prettier:fix": "prettier --write .",
+    "prettier:lint": "prettier --check .",
+    "lint": "npm run eslint:lint && npm run prettier:lint"
+  },
+  "dependencies": {
+    "@nanostores/react": "^0.8.0",
+    "@react-hookz/deep-equal": "^1.0.4",
+    "@react-input/mask": "^1.2.15",
+    "date-fns": "^4.1.0",
+    "lodash.escaperegexp": "^4.1.2",
+    "nanostores": "^0.11.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-is": "^19.1.0",
+    "react-router-dom": "^7.0.1",
+    "styled-components": "^5.3.11"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.19.0",
+    "@types/lodash.escaperegexp": "^4.1.9",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "@types/styled-components": "^5.1.26",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "@vitest/ui": "^0.29.8",
+    "eslint": "^9.19.0",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.18",
+    "globals": "^15.14.0",
+    "husky": "^8.0.1",
+    "jsdom": "^21.1.1",
+    "msw": "^1.2.1",
+    "prettier": "^2.7.1",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "^8.22.0",
+    "vite": "^5.1.4",
+    "vite-plugin-environment": "^1.1.3",
+    "vite-plugin-externals": "^0.6.2",
+    "vitest": "^0.29.8"
+  }
+}
