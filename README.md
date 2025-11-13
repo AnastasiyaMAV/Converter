@@ -1,4 +1,4 @@
-## ConverterStart
+## ConverterStart +
 
 Небольшое Vite + React (TS) приложение со стилизованными UI‑компонентами (`styled-components`), включая `Textarea`, `Select`, `Input`, кнопку и глобальные стили.
 
